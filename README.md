@@ -1,7 +1,4 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
+# Professional README Generator
 
 ## Description
 
@@ -25,7 +22,7 @@ Please see video link for a walk through on how to clone it.
 [Clone to your computer](https://drive.google.com/file/d/15ogCY3Q-JLWhteoSiIoXLkhtK4Z0-mfz/view?usp=sharing "Click Me!")
 <br><br>
 
-## Function
+## Usage
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -42,10 +39,6 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
