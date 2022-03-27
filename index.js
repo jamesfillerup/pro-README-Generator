@@ -73,15 +73,10 @@ const questions = [
         
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
         message: "What kind of license do you have for your project",
-        
-    },
-    {
-        type: "input",
-        name: "tests",
-        message: "How do you test your project?",
+        choices: [ "APACHE", "BSD", "BOOST","GNU"]
         
     },
     {
@@ -93,10 +88,11 @@ const questions = [
 ]
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err =>{
+function writeToFile(data) {
+
+    fs.writeFile("./generated/README.md", generateMarkdown(data), err =>{
         if (err) {
-            return console.log('There was an error.')
+            throw err
         }
     })
 }
